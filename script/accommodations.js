@@ -1,5 +1,5 @@
 // Fetch and display accommodations
-fetch("/./json/accommodations.json")
+fetch("json/accommodations.json")
   .then((response) => response.json())
   .then((data) => {
     const accommodations = data.accommodations;
