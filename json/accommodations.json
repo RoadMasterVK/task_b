@@ -1,8 +1,8 @@
 {
     "accommodations": [
       {
-        "image": "/./accommodations/image1.jpg",
-        "roomPreviews": ["/./accommodations/image2.jpg", "/./accommodations/image3.jpg", "/./accommodations/image4.jpg", "/./accommodations/image5.jpg"],
+        "image": "accommodations/image1.jpg",
+        "roomPreviews": ["accommodations/image2.jpg", "accommodations/image3.jpg", "accommodations/image4.jpg", "accommodations/image5.jpg"],
         "name": "Highfield Bed & Breakfast",
         "location": "42 Thormanby Rd, Dublin Northside, Howth, Co. Dublin",
         "description": "",
