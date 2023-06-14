@@ -17,10 +17,8 @@ form.addEventListener('submit', function(event) {
   event.preventDefault();
 
   if (form.checkValidity()) {
-    // Form is valid, perform further actions (e.g., submit the form)
     form.submit();
   } else {
-    // Form is invalid, display error messages
     const inputs = form.querySelectorAll('input, textarea');
     inputs.forEach(function(input) {
       if (!input.checkValidity()) {

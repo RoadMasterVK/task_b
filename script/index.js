@@ -99,7 +99,7 @@ showCookieConsentPopup();
       popup.classList.remove('show');
     };
 
-   // Toggle the active class on the navigation list when the button is clicked
+ 
 document.getElementById('menu-toggle').addEventListener('click', function() {
   document.querySelector('.navigation').classList.toggle('active');
 });
