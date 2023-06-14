@@ -8,7 +8,7 @@
       "website": "http://www.imonelli.ie/",
       "email": "info@imonelli.ie",
       "rating": 4.5,
-      "photo": "/./food/image1.jpg"
+      "photo": "food/image1.jpg"
     },
     {
       "name": "31 Lennox",
@@ -18,7 +18,7 @@
       "website": "http://www.31lennox.ie/",
       "email": "info@31lennox.ie",
       "rating": 5.0,
-      "photo": "/./food/image2.jpg"
+      "photo": "food/image2.jpg"
     },
     {
       "name": "SOLE Seafood and Grill",
@@ -28,7 +28,7 @@
       "website": "http://www.sole.ie/",
       "email": "info@sole.ie",
       "rating": 5.0,
-      "photo": "/./food/image3.jpg"
+      "photo": "food/image3.jpg"
     },
     {
       "name": "Mister S",
@@ -38,7 +38,7 @@
       "website": "http://www.misters.ie/",
       "email": "info@misters.ie",
       "rating": 4.5,
-      "photo": "/./food/image4.jpg"
+      "photo": "food/image4.jpg"
     },
     {
       "name": "FIRE Steakhouse and Bar",
@@ -48,7 +48,7 @@
       "website": "https://www.firesteakhouse.ie/",
       "email": "info@firesteakhouse.ie",
       "rating": 5.0,
-      "photo": "/./food/image5.jpg"
+      "photo": "food/image5.jpg"
     },
     {
       "name": "Falafel",
@@ -58,7 +58,7 @@
       "website": "http://www.falafeldublin.ie/",
       "email": "info@falafeldublin.ie",
       "rating": 4.0,
-      "photo": "/./food/image6.jpg"
+      "photo": "food/image6.jpg"
     }
   ]
 }
