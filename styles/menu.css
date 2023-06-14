@@ -165,7 +165,7 @@ ul li a:hover {
 
 .navigation-color {
   position: relative;
-  margin-right: 5px;
+  
   
 }
 
@@ -173,7 +173,7 @@ ul li a:hover {
   display: inline-block;
   position: relative;
   color: transparent;
-  font-style: bold;
+  
 }
 
 .navigation-color .text::before {
