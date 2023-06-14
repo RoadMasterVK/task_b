@@ -6,7 +6,7 @@ var columnDiv = document.getElementById("column-index");
 var currentSlide = 0;
 var slides = [];
 
-fetch("/./json/index.json")
+fetch("json/index.json")
   .then(function (response) {
     return response.json();
   })
@@ -70,22 +70,7 @@ function showCookieConsentPopup() {
 
 showCookieConsentPopup();
 
-// Toggle the popup window and label
-//var popup = document.getElementById('popup');
-//    var video = document.getElementById('video');
-//    var videoList = document.getElementById('videoList');
-//    var isVideoPlaying = false;
 
-//    function toggleVideoList() {
- //     videoList.classList.toggle('show');
- //   }
-
- //   function openVideo(src) {
- //     video.src = src;
- //     video.play();
- //     popup.classList.add('show');
-// videoList.classList.remove('show');
- //   }
  var popup = document.getElementById('popup');
     var video = document.getElementById('video');
     var videoList = document.getElementById('videoList');
