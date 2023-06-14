@@ -1,0 +1,47 @@
+{
+    "events": [
+      {
+        "title": "Event 1",
+        "image": "image1.jpg",
+        "moreInfo": "event1_info.html",
+        "description": "Event 1 description",
+        "moreInfoDescription": "You agree to the use of the Subject Forum and Online Chat resources for only lawful purposes and those that serve to act as a learning resource to you personally.You agree not to use any obscene or offensive language to place on this forum including any material that is profane, inaccurate, defamatory, false, inappropriate, threatening, hateful, constitutes junk mail or unauthorised advertising, infringes on any person’s privacy, violates copyright laws, encourages conduct that would constitute a criminal offense, give rise to civil liability, or otherwise be in violation of any local, state, national, or international law or regulation. "
+      },
+      {
+        "title": "Event 2",
+        "image": "image2.jpg",
+        "moreInfo": "event2_info.html",
+        "description": "Event 2 description",
+        "moreInfoDescription": "more Event 12 description"
+      },
+      {
+        "title": "Event 3",
+        "image": "image3.jpg",
+        "moreInfo": "event3_info.html",
+        "description": "Event 3 description",
+        "moreInfoDescription": "more Event 3 description"
+      },
+      {
+        "title": "Event 4",
+        "image": "image4.jpg",
+        "moreInfo": "event4_info.html",
+        "description": "Event 4 description",
+        "moreInfoDescription": "more Event 4 description"
+      },
+      {
+        "title": "Event 5",
+        "image": "image5.jpg",
+        "moreInfo": "event5_info.html",
+        "description": "Event 5 description",
+        "moreInfoDescription": "more Event 5 description"
+      },
+      {
+        "title": "Event 6",
+        "image": "image6.jpg",
+        "moreInfo": "event6_info.html",
+        "description": "Event 6 description",
+        "moreInfoDescription": "more Event 6 description"
+      }
+    ]
+  }
+  

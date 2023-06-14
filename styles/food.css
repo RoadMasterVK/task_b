@@ -1,0 +1,110 @@
+.rows-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+
+}
+
+.restaurant {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 5px;
+}
+
+.restaurant img {
+
+  max-height: 250px;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.restaurant img:hover {
+  animation: shake 0.8s infinite;
+}
+@keyframes shake {
+  0% {transform: rotate(0deg);}
+
+  25% {transform: rotate(3deg);}
+
+  50% {transform: rotate(-3deg);}
+
+  75% {transform: rotate(3deg);}
+
+  100% {transform: rotate(0deg);}
+}
+
+
+.restaurant button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f9f9f9;
+  width: 30%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.modal img {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 90%;
+  margin: 5px;
+}
+
+.submit {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close {
+  background-color: #e30f0f;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  padding: 5px 5px;
+  margin: 5px;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Rating styles */
+.rating {
+  color: gold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+

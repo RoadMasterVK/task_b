@@ -1,0 +1,103 @@
+/*------ Accommodation-list -----*/
+.accommodation-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.accommodation {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.accommodation img {
+  border-radius: 5px;
+  cursor: pointer;
+  max-height: 250px;
+}
+.room-preview img{
+  max-height: 50px;
+}
+.accommodation button {
+background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  width: 35%;
+  border: 1px solid #000000;
+}
+.booking-content {  /*booking*/
+  background-color: #f9f9f9;
+  border: 1px solid #ffffff;
+  width: 99%;
+  text-align: center;
+}
+.booking-content img {
+  border-radius: 5px;
+  cursor: pointer;
+  width:70%;
+}
+.booking-content button {
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.roommodal{
+  background-color: #fcfafa;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  width: 50%;
+  border: 1px solid #000000;
+}
+.roommodal img {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 97%;
+}
+.close {
+  color: #e30f0f;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Rating styles */
+.rating {
+  color: gold;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+
+

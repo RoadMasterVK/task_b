@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/./styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="/./styles/popup.css">
+    <link rel="stylesheet" type="text/css" href="/./styles/menu.css">
+    <link rel="stylesheet" type="text/css" href="/./styles/media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT - Home</title>
+</head>
+
+<body>
+    <button id="menu-toggle">Menu</button>
+    <div class="header">
+        <header>
+            <div class="header-column">
+                <div class="logo">
+                    <a href="/./index.html">
+                        <img src="/./images/logo.png" alt="Logo">
+                    </a>
+                </div>
+                
+            </div>
+            <div class="header-column">
+                
+                <nav>
+                    <ul class="navigation">
+                        <div class="navigation-color">
+                            <li<span class="text" data-text="Home">Home</span></li>
+                            </div>
+                        <li><a href="/./html/accommodations.html">Accommodations</a></li>
+                        <li><a href="/./html/food.html">Food</a></li>
+                        <li><a href="/./html/events.html">Events</a></li>
+                        <li><a href="/./html/transportation.html">Transportation</a></li>
+                        <li><a href="/./html/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+    <div class="content">
+        <main>
+            <div class="slideshow">
+                <img class="slide" alt="Slideshow Image">
+                <div class="slide-info">
+                    <h2 class="slide-title"></h2>
+                    <p class="slide-description"></p>
+                </div>
+            </div>
+            <div id="cookieConsentPopup" class="cookie-consent-popup">
+                <p>This website uses cookies. By continuing to browse, you consent to the use of cookies.</p>
+                <button id="acceptCookiesBtn" class="accept-cookies-btn">Accept</button>
+     </header>       
+    </div>  
+</main>
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="footer-column">
+                <div class="carousel">
+                    <div class="text-container">
+                        <div class="text">
+                            &copy; 2023 Howth Town. All rights reserve
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-column"></div>
+            <ul class="social-links">
+                <div class="social">
+                <li><a href="https://www.facebook.com/your-page" target="_blank"><img src="/./images/facebook.png"
+                            alt="Facebook"></a></li>
+                        </div>
+                <div class="social">        
+                <li><a href="https://www.twitter.com/your-handle" target="_blank"><img src="/./images/twitter.png"
+                            alt="Twitter"></a></li>
+                </div>            
+                <div class="social">            
+                <li><a href="https://www.instagram.com/your-profile" target="_blank"><img src="/./images/instagram.png"
+                            alt="Instagram"></a></li>
+                </div>            
+            </ul>
+    </div>
+
+    </footer>
+    </div>
+    <div class="popup" id="popup">
+        <video id="video" controls>
+          <source src="" type="video/mp4">
+        </video>
+      </div>
+    
+     <div class="popup-label" onclick="togglePopup()">
+        <span>O</span>
+        <span>E</span>
+        <span>D</span>
+        <span>I</span>
+        <span>V</span>
+        </div>
+       
+
+      <div class="video-list" id="videoList">
+        <div class="video-list-item" onclick="openVideo('/./media/12.mp4')">&#9788    Beautiful ocean at sunset</div>
+        <div class="video-list-item" onclick="openVideo('/./media/11.mp4')">&#8779    Windy winter beach</div>
+        <div class="video-list-item" onclick="openVideo('/./media/13.mp4')">&#9730    A Tuny Hidden Beach</div>
+      </div>
+    
+      
+      <script src="/./script/index.js"></script>
+</body>
+</html>

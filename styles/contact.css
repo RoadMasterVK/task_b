@@ -1,0 +1,69 @@
+.grid-container-contact {
+    display: grid;
+    grid-template-columns: 25% 56% 17%;
+     grid-gap: 10px;
+  }
+  
+  .grid-item-contact {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+  }
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .contact-image{
+    width: 18vw;
+  }
+  .qr-image{
+    width: 8vw;
+  }
+  .contact-card {
+    padding: 5px;
+    text-align: center;
+    flex: 1;
+    width: 25vw;
+  }
+  
+  .contact-card h2 {
+    margin-top: 0;
+  }
+  
+  .google-map {
+    height: 75vh;
+    width: 53vw;
+    margin: auto;
+  }
+  /* Email Link */
+  .contact-info a {
+    color: #1d1d1d;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0c0e3a;
+  }
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+
+label, input, textarea { 
+    display: block;
+    width: 15vw; 
+    box-sizing: border-box;
+    color:rgb(66, 39, 90);
+  }
+  form {
+    width: 15vw;  
+  }
+  .form-control { 
+    margin-bottom: 1em;
+  }
+  textarea {
+    min-height: 10em;
+  }
+  .form-control input, .form-control textarea {
+    padding: 0.2em; 
+  } 
+  

@@ -1,0 +1,52 @@
+
+.grid-container-trans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item-trans{
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+  }
+  .trans-card img {
+    width: 15%;
+    height: 15%;
+    border-radius: 30px;
+  }
+  .trans-card a {
+    margin: 10px 5px;
+    text-align: left;
+    font-size:large ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .trans-card p {
+    margin: 10px 5px;
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .trans-card li {
+    margin: 10px 5px;
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .trans-card ol {
+    margin: 10px 5px;
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .SVG-BUS{
+    margin: 5px;
+    padding-top: 20px;
+    width: 100%;
+  }
+  @keyframes busAnimation {
+    100% { transform: translateX(0); }
+    0% { transform: translateX(100%); }
+  }
+
+  .bus {
+    animation: busAnimation 2s linear infinite;
+  }
+  

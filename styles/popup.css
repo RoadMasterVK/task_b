@@ -1,0 +1,76 @@
+.popup {
+    position:fixed;
+    top: 15%;
+    right: 20%;
+    transform: translate(100%, -50%);
+    background-color: #f1f1f1;
+    padding: 5px;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: top right;
+    transform: scale(0);
+    visibility: hidden;
+  }
+
+  .popup.show {
+    transform: scale(1);
+    visibility: visible;
+  }
+
+  .popup video {
+    width: 100%;
+  }
+
+  .popup-label {
+    position: fixed;
+    top: 120px;
+    right: -6%;
+    border-radius: 10px;
+  
+    transform: rotate(270deg);
+    width: 90px;
+    height: 80px;
+    background-color: #ff0202;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    transition: right 0.3s ease-in-out;
+    z-index: 999;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+ }
+
+ .popup-label span {
+    display: block;
+    text-align: left;
+  }
+  .popup-label.show {
+    right: 0;
+  }
+
+  .video-list {
+    position: fixed;
+    top: 180px;
+    right: -300px;
+    transform: translateY(-50%);
+    background-color: #f0f9c3;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    z-index: 998;
+  }
+
+  .video-list.show {
+    right: 0;
+  }
+
+  .video-list-item {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .video-list-item:last-child {
+    margin-bottom: 0;
+  }

@@ -1,0 +1,55 @@
+/* -------slideshow------*/
+.slideshow {
+  position: relative;
+}
+
+.slide {
+  
+  width: 99vw;
+  height:82vh;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide-info {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  color: #ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.slide-title {
+  font-size: 35px;
+  position: relative;
+  -webkit-text-stroke: .04em black;
+}
+.slide-description {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  -webkit-text-stroke: .05em black;
+}
+
+/*-------cookies-----*/
+.cookie-consent-popup {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: #919191;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.accept-cookies-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}

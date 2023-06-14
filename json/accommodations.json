@@ -1,0 +1,71 @@
+{
+    "accommodations": [
+      {
+        "image": "/./accommodations/image1.jpg",
+        "roomPreviews": ["/./accommodations/image2.jpg", "/./accommodations/image3.jpg", "/./accommodations/image4.jpg", "/./accommodations/image5.jpg"],
+        "name": "Highfield Bed & Breakfast",
+        "location": "42 Thormanby Rd, Dublin Northside, Howth, Co. Dublin",
+        "description": "",
+        "PhoneNumber": "(01) 832 3936",
+        "url": "",
+        "PeopleInRoom": 2,
+        "price": 137
+      },
+      {
+        "image": "/./accommodations/image6.jpg",
+        "roomPreviews": ["/./accommodations/image7.jpg", "/./accommodations/image8.jpg", "/./accommodations/image9.jpg", "/./accommodations/image10.jpg"],
+        "name": "Hazelwood Bed & Breakfast",
+        "location": "2 Thormanby Woods, Howth, Dublin (D13P938)",
+        "description": "Is your home away from home located in the beautiful fishing village.",
+        "PhoneNumber":"(01) 839 1391",
+        "url": "http://www.howthbandb.com",
+        "PeopleInRoom": 3,
+        "price": 150
+      },
+      {
+        "image": "/./accommodations/image11.jpg",
+        "roomPreviews": ["/./accommodations/image12.jpg", "/./accommodations/image13.jpg", "/./accommodations/image14.jpg", "/./accommodations/image15.jpg"],
+        "name": "Marine Hotel",
+        "location": "13 Sutton Cross, Burrow, Sutton, Co. Dublin",
+        "description": "Established since 1897, the Marine Hotel is located at Sutton Cross.",
+        "PhoneNumber": "(01) 839 0000",
+        "url": "http://www.marinehotel.ie",
+        "PeopleInRoom": 2,
+        "price": 176
+      },
+      {
+        "image": "/./accommodations/image16.jpg",
+        "roomPreviews": ["/./accommodations/image17.jpg", "/./accommodations/image18.jpg", "/./accommodations/image19.jpg", "/./accommodations/image20.jpg"],
+        "name": "Highfield Bed & Breakfast",
+        "location": "42 Thormanby Rd, Dublin Northside, Howth, Co. Dublin",
+        "description": "",
+        "PhoneNumber": "(01) 832 3936",
+        "url": "",
+        "PeopleInRoom": 2,
+        "price": 137
+      },
+      {
+        "image": "/./accommodations/image21.jpg",
+        "roomPreviews": ["/./accommodations/image22.jpg", "/./accommodations/image23.jpg", "/./accommodations/image24.jpg", "/./accommodations/image25.jpg"],
+        "name": "Hazelwood Bed & Breakfast",
+        "location": "2 Thormanby Woods, Howth, Dublin (D13P938)",
+        "description": "Is your home away from home located in the beautiful fishing village.",
+        "PhoneNumber":"(01) 839 1391",
+        "url": "http://www.howthbandb.com",
+        "PeopleInRoom": 3,
+        "price": 150
+      },
+      {
+        "image": "/./accommodations/image26.jpg",
+        "roomPreviews": ["/./accommodations/image27.jpg", "/./accommodations/image28.jpg", "/./accommodations/image29.jpg", "/./accommodations/image30.jpg"],
+        "name": "Marine Hotel",
+        "location": "13 Sutton Cross, Burrow, Sutton, Co. Dublin",
+        "description": "Established since 1897, the Marine Hotel is located at Sutton Cross.",
+        "PhoneNumber": "(01) 839 0000",
+        "url": "http://www.marinehotel.ie",
+        "PeopleInRoom": 2,
+        "price": 176
+      }
+    ]
+  }
+  
