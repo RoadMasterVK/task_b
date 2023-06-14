@@ -1,32 +1,32 @@
 {
     "slides": [
       {
-        "image": "/./images/image1.jpg",
+        "image": "images/image1.jpg",
         "title": "Scenic Coastal Beauty",
         "description": "A picturesque town nestled along the stunning Irish coastline."
       },
       {
-        "image": "/./images/image2.jpg",
+        "image": "images/image2.jpg",
         "title": "Vibrant Fishing Harbor",
         "description": "Explore the bustling harbor filled with colorful fishing boats and fresh seafood restaurants."
       },
       {
-        "image": "/./images/image3.jpg",
+        "image": "images/image3.jpg",
         "title": "Enchanting Cliff Walks",
         "description": "Embark on breathtaking cliff walks offering panoramic views of the sea and surrounding landscapes."
       },
       {
-        "image": "/./images/image4.jpg",
+        "image": "images/image4.jpg",
         "title": "Gastronomic Delights",
         "description": "Indulge in delectable seafood delicacies and savor the flavors of Howth."
       },
       {
-        "image": "/./images/image5.jpg",
+        "image": "images/image5.jpg",
         "title": "Historic Howth Castle",
         "description": "Discover the rich history and architecture of Howth Castle and its enchanting grounds."
       },
       {
-        "image": "/./images/image6.jpg",
+        "image": "images/image6.jpg",
         "title": "Quaint Village Charm",
         "description": "Immerse yourself in the charming village atmosphere with its cozy shops, cafes, and traditional pubs."
       }
