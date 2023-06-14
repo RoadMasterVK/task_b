@@ -1,5 +1,5 @@
 
-fetch('/./json/events.json')
+fetch('json/events.json')
 .then(response => response.json())
 .then(data => {
   const eventRows = document.getElementById('eventRows');
@@ -13,7 +13,7 @@ fetch('/./json/events.json')
     eventCard.className = 'event-card';
     
     const image = document.createElement('img');
-    image.src = '/./events/' + event.image;
+    image.src = 'events/' + event.image;
     image.alt = event.title;
     image.className = 'event-image';
     eventCard.appendChild(image);
@@ -29,7 +29,7 @@ fetch('/./json/events.json')
     eventCard.appendChild(moreInfo);
     
     moreInfo.addEventListener('click', () => {
-      fetch('/./json/events.json')
+      fetch('json/events.json')
         .then(response => response.json())
         .then(data => {
           const eventData = data.events.find(e => e.moreInfo === event.moreInfo);
@@ -57,7 +57,7 @@ fetch('/./json/events.json')
               </style>
               <div class="popup-content">
                 <h2>${eventData.title}</h2>
-                <img src="/./events/${eventData.image}" alt="${eventData.title}" style="height: 300px;">
+                <img src="events/${eventData.image}" alt="${eventData.title}" style="height: 300px;">
                 
                 <p>${eventData.moreInfoDescription}</p>
               </div>
